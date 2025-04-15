@@ -1,0 +1,7 @@
+spring.application.name=TP-spingboot
+server.port=8081
+
+# Configuration OpenAPI/Swagger
+springdoc.api-docs.path=/api-docs
+springdoc.swagger-ui.path=/swagger-ui
+springdoc.swagger-ui.operationsSorter=method
