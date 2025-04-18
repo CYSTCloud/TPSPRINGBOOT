@@ -1,13 +1,13 @@
-package tp0.tpspingboot;
+package tp0.tpspringboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TpSpingbootApplication {
+public class TpSpringbootApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(TpSpingbootApplication.class, args);
+        SpringApplication.run(TpSpringbootApplication.class, args);
     }
 
 }

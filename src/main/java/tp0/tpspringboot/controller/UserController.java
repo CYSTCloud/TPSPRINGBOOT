@@ -1,4 +1,4 @@
-package tp0.tpspingboot.controller;
+package tp0.tpspringboot.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import tp0.tpspingboot.service.UserService;
+import tp0.tpspringboot.service.UserService;
 
 @RestController
 @RequestMapping("/v1/api/user")

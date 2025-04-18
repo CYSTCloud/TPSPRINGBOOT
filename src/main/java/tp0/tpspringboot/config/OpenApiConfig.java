@@ -1,4 +1,4 @@
-package tp0.tpspingboot.config;
+package tp0.tpspringboot.config;
 
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Info;
@@ -12,7 +12,13 @@ public class OpenApiConfig {
     public OpenAPI api() {
         return new OpenAPI()
                 .info(new Info()
-                        .title("TP Spring Boot API")
+                        .title("TPSPRINGBOTO")
                         .version("1.0"));
     }
 }
+
+//   <dependency>
+//      <groupId>org.springdoc</groupId>
+//      <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+//      <version>2.8.6</version>
+//   </dependency>
